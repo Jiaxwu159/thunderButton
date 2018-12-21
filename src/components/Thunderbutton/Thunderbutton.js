@@ -10,8 +10,17 @@ const Thunderbutton = () => {
 )
 };
 
+
+let x = 0
+
 function clickMe(){
-	console.log('bkeh')
+	setInterval(lightning, 1000);
+}
+
+function lightning(){
+
+	let displayNumbers = x++
+	console.log(displayNumbers)
 }
 //className='bg-light-gray dib br3 pa3 ma2 grow bw2 shadow-5'
  //<img src={img} alt='thunder' width='300' height='300' />
